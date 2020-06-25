@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev -r dotenv/config --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "dev": "ts-node-dev -r dotenv/config --respawn --transpileOnly --ignore-watch node_modules --no-notify --files src/server.ts",
     "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
