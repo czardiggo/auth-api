@@ -1,4 +1,4 @@
-# auth-api
+# JWT authentification API
 🔐 An JWT authentification API with TypeScript and TypeORM
 
 ## Installation and Execution
@@ -9,7 +9,7 @@ Clone this repository by running:
 
 Enter the folder running through terminal:
 
-`cd ts-auth`
+`cd auth-api`
 
 To install dependencies run:
 
