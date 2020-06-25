@@ -8,11 +8,13 @@
     "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.6",
     "ts-node-dev": "^1.0.0-pre.49",
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "pg": "^8.2.1",
     "reflect-metadata": "^0.1.13",
