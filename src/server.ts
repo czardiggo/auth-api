@@ -1,4 +1,6 @@
+import 'reflect-metadata'
 import express from 'express'
+import './database/connection'
 import routes from './routes'
 
 const PORT = 3333
